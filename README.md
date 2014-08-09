@@ -6,6 +6,10 @@ Solves puzzles that involve putting shapes on a flat 2D board in a particular or
 
 This JavaScript program attempts to find solutions for puzzles that involve 2D blocks on a board where the rows and columns of the board can not contain the same shape twice. The technique is a simple recursive function to find solutions (breadth first search).
 
+I have a few puzzles from Israel that have the theme of placing tiles on a board in a specific way. I wanted to try and write a program to solve these types of puzzles. It is a bit more complicated than just a recursive search as tiles can be rotated.
+
+The program only solves for the puzzle listed below, but eventually I want to get it to solve arbitrary puzzles by only requiring the pieces, the board size, and a function indicting "valid state"
+
 ## Example
 ![From www.thinkinggames.com](http://i.imgur.com/P9EZNzj.png)
 (Source: www.thinkinggames.com)

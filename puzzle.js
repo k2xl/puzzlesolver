@@ -6,7 +6,10 @@
 *	The algorithm could possibly be improved to prevent mirrored attempts from being attempted again
 *	Written by Danny Miller k2xl.com@gmail.com
 */
-var STAR = 1,
+
+
+// Specify the items here.
+var 	STAR = 1,
 	BULLS = 2,
 	TRIANGLE = 3,
 	YELLOW = 4,
@@ -22,6 +25,7 @@ var enumMap = {
 	
 }
 
+// This current example just uses regular 1D tiles that can be rotated.
 var all_items = [
 	[[STAR, BULLS,TRIANGLE]],
 	[[TRIANGLE, BULLS]],
